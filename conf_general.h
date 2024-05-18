@@ -29,7 +29,7 @@
 #include "datatypes.h"
 
 // Disable hardware limits on configuration parameters
-//#define DISABLE_HW_LIMITS
+#define DISABLE_HW_LIMITS
 
 #if !defined(HW_SOURCE) && !defined(HW_SOURCE_ALT)
 #error "No hardware source file set"
